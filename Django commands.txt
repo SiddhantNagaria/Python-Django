@@ -1,0 +1,12 @@
+#create django project:
+
+django-admin startproject projectname
+example : django-admin startproject Project1
+
+
+#run django project:
+
+python manage.py runserver
+python manage.py runserver portnumber
+example: python manage.py runserver 8001
+
