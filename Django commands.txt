@@ -11,3 +11,7 @@ python manage.py runserver portnumber
 example: python manage.py runserver 8001
 
  
+ #start django app
+
+ python manage.py startapp appname
+ example = python manage.py startapp proj1
