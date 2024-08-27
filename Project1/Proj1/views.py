@@ -5,8 +5,9 @@ from .models import ChaiVariety
 # Create your views here.
 
 def all_chai(request):
-    chais = ChaiVariety.objects.all()
-    return render(request, 'Proj1/all_chai.html', {'chais':chais})
+  chais = ChaiVariety.objects.all()
+  return render(request, 'Proj1/all_chai.html', {'chais': chais})
+
 
 def chai_detail(request, chai_id):
   chai = get_object_or_404(ChaiVariety, pk=chai_id)

@@ -12,7 +12,7 @@ Home page
     <div class="bg-green-500 p-5 rounded">
         <img class= "rounded"src="{{chai.image.url}}" alt="photo here">
         <h3>{{chai.name}}</h3>
-        <a href="{% url "chai_detail", chai.id %}">
+        <a href="{% url "chai_detail" chai.id %}">
             <button type="button">
                 {{chai.type}} - {{chai.id}}
             </button>
